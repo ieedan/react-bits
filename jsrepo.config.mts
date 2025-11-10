@@ -9,7 +9,28 @@ export default defineConfig({
   registry: [
     ({ cwd }) => ({
       name: '@react-bits',
+      authors: ['David Haz'],
+      description:
+        'An open source collection of animated, interactive & fully customizable React components for building stunning, memorable user interfaces.',
+      bugs: 'https://github.com/DavidHDev/react-bits/issues',
       homepage: 'https://reactbits.dev',
+      repository: 'https://github.com/DavidHDev/react-bits',
+      tags: [
+        'react',
+        'javascript',
+        'components',
+        'web',
+        'reactjs',
+        'css-animations',
+        'component-library',
+        'ui-components',
+        '3d',
+        'ui-library',
+        'tailwind',
+        'tailwindcss',
+        'components',
+        'components-library'
+      ],
       excludeDeps: ['react'],
       items: [
         ...getItems({ dir: path.join(cwd, 'src/ts-default'), cwd }),
