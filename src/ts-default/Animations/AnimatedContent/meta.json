@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration and easing."
+}
