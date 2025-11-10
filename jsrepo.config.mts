@@ -46,7 +46,9 @@ function getItems({ dir, cwd, suffix }: { dir: string; cwd: string; suffix?: str
           .filter(f => f !== 'meta.json')
           .map(file => {
             return {
-              path: path.relative(cwd, path.join(dir, typeDir, item, file))
+              path: path.relative(cwd, path.join(dir, typeDir, item, file)),
+              // prevent warnings
+              dependencyResolution: endsWithOneOf(file, ['.glb', '.png']) ? 'manual' : 'auto'
             };
           })
       } satisfies RegistryItem;
@@ -107,4 +109,8 @@ function isLetter(char: string): boolean {
   }
 
   return LETTER_REGEX.test(char);
+}
+
+function endsWithOneOf(str: string, endings: string[]): boolean {
+  return endings.some(ending => str.endsWith(ending));
 }

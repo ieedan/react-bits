@@ -30,6 +30,3 @@ public/ts/tailwind
 *.njsproj
 *.sln
 *.sw?
-
-public/r
-public/jsrepo
