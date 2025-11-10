@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Interactive folder opens to reveal nested content smooth motion."
+}

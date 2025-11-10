@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Liquid flowing active indicator glides between menu items."
+}

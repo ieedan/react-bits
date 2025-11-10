@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Rotating prism with configurable intensity, size, and colors."
+}

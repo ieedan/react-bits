@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Adds a realistic moving glare highlight on hover over any element."
+}

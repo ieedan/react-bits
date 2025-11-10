@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Animated pattern of lines forming a fabric-like motion."
+}

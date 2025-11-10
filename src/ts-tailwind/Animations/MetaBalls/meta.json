@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Warped grid mesh distorts smoothly reacting to cursor."
+}

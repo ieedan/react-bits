@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Pixelated cursor trail emitting fading squares with retro digital feel."
+}

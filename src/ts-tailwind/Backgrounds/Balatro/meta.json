@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "The balatro shader, fully customizalbe and interactive."
+}

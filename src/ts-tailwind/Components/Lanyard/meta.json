@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Swinging 3D lanyard / badge card with realistic inertial motion."
+}

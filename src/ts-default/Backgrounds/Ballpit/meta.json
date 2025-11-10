@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Physics ball pit simulation with bouncing colorful spheres."
+}

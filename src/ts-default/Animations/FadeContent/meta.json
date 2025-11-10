@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Simple directional fade / slide entrance wrapper with threshold-based activation."
+}

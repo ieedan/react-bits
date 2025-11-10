@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Flowing looping text path along a customizable curve with drag interaction."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Elements magnetically ease toward the cursor then settle back with spring physics."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Vibrating fuzzy text with controllable hover intensity."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing."
+}

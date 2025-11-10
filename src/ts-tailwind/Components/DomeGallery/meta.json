@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Immersive 3D dome gallery projecting images on a hemispheric surface."
+}

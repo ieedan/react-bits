@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Subtle dark background with a smooth animation and postprocessing."
+}

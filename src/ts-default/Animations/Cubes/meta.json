@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "3D rotating cube cluster. Supports auto-rotation or hover interaction."
+}

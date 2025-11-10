@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Glassmorphism container with animated liquid distortion refraction."
+}

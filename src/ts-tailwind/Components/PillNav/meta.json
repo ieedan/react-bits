@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Minimal pill nav with sliding active highlight + smooth easing."
+}

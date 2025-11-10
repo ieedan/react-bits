@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "A cursor follow animation with 4 corners that lock onto targets."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Overlapping card stack reveals on scroll with depth layering."
+}

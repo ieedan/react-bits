@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Letter styling changes continuously with pointer distance mapping."
+}

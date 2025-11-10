@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Expandable navigation bar with card panels revealing nested links."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Characters scale / warp interactively based on pointer pressure zone."
+}

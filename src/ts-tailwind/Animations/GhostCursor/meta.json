@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect."
+}

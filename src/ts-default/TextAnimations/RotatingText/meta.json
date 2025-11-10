@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Cycles through multiple phrases with 3D rotate / flip transitions."
+}

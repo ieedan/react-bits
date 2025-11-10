@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect."
+}

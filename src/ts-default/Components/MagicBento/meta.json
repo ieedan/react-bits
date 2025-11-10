@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Interactive bento grid tiles expand + animate with various options."
+}

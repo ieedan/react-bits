@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Responsive carousel with touch gestures, looping and transitions."
+}

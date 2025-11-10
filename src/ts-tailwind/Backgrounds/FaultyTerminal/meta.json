@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Terminal CRT scanline squares effect with flicker + noise."
+}

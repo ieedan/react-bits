@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion."
+}

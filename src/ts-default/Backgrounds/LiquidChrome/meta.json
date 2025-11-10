@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Liquid metallic chrome shader with flowing reflective surface."
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Make any text element follow your cursor, leaving a trail of copies behind it."
+}

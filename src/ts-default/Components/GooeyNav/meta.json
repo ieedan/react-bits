@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Navigation indicator morphs with gooey blob transitions between items."
+}

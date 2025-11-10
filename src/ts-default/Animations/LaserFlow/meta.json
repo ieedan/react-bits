@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Dynamic laser light that flows onto a surface, customizable effect."
+}

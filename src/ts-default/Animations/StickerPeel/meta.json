@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth."
+}

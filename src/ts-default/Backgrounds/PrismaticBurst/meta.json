@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Burst of light rays with controllable color, distortion, amount."
+}

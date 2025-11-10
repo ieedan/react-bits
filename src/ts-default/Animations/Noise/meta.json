@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Animated film grain / noise overlay adding subtle texture and motion."
+}

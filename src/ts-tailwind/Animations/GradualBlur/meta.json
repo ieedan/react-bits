@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal."
+}

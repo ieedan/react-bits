@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Applies dynamic blur / clarity based over a series of words in order."
+}

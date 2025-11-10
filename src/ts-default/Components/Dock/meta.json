@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "macOS style magnifying dock with proximity scaling of icons."
+}

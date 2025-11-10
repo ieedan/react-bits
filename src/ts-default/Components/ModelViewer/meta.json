@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Three.js model viewer with orbit controls and lighting presets."
+}

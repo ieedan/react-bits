@@ -10,12 +10,14 @@ export default defineConfig({
     ({ cwd }) => ({
       name: '@react-bits/vanilla',
       homepage: 'https://reactbits.dev',
+      excludeDeps: ['react'],
       items: getItems({ dir: path.join(cwd, 'src/ts-default'), cwd }),
       outputs: [shadcn({ dir: 'public/r/vanilla' }), distributed({ dir: 'public/jsrepo/vanilla' })]
     }),
     ({ cwd }) => ({
       name: '@react-bits/tailwind',
       homepage: 'https://reactbits.dev',
+      excludeDeps: ['react'],
       items: getItems({ dir: path.join(cwd, 'src/ts-tailwind'), cwd }),
       outputs: [shadcn({ dir: 'public/r/tailwind' }), distributed({ dir: 'public/jsrepo/tailwind' })]
     })

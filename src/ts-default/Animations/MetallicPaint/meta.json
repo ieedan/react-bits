@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Liquid metallic paint shader which can be applied to SVG elements."
+}

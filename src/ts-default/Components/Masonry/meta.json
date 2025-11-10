@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Responsive masonry layout with animated reflow + gaps optimization."
+}

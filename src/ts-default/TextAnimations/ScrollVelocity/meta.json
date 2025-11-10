@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity."
+}

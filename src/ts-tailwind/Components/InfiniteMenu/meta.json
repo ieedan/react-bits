@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap."
+}

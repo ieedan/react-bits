@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Slider handle stretches elastically then snaps with spring physics."
+}

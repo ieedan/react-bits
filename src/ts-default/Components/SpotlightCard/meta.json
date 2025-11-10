@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Dynamic spotlight follows cursor casting gradient illumination."
+}

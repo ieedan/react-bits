@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "RGB split and distortion glitch effect with jitter effects."
+}

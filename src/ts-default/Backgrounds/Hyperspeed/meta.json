@@ -1,0 +1,4 @@
+{
+    "$schema": "../../../../schemas/component-metadata.json",
+    "description": "Animated lines continuously moving to simulate hyperspace travel on click hold."
+}
