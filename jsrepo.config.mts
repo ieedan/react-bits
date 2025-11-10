@@ -8,18 +8,14 @@ import { z } from 'zod';
 export default defineConfig({
   registry: [
     ({ cwd }) => ({
-      name: '@react-bits/vanilla',
+      name: '@react-bits',
       homepage: 'https://reactbits.dev',
       excludeDeps: ['react'],
-      items: getItems({ dir: path.join(cwd, 'src/ts-default'), cwd }),
-      outputs: [shadcn({ dir: 'public/r/vanilla' }), distributed({ dir: 'public/jsrepo/vanilla' })]
-    }),
-    ({ cwd }) => ({
-      name: '@react-bits/tailwind',
-      homepage: 'https://reactbits.dev',
-      excludeDeps: ['react'],
-      items: getItems({ dir: path.join(cwd, 'src/ts-tailwind'), cwd }),
-      outputs: [shadcn({ dir: 'public/r/tailwind' }), distributed({ dir: 'public/jsrepo/tailwind' })]
+      items: [
+        ...getItems({ dir: path.join(cwd, 'src/ts-default'), cwd }),
+        ...getItems({ dir: path.join(cwd, 'src/ts-tailwind'), cwd, suffix: 'tw' })
+      ],
+      outputs: [shadcn({ dir: 'public/r' }), distributed({ dir: 'public/jsrepo' })]
     })
   ]
 });
@@ -28,7 +24,7 @@ const metaSchema = z.object({
   description: z.string().optional()
 });
 
-function getItems({ dir, cwd }: { dir: string; cwd: string }): RegistryItem[] {
+function getItems({ dir, cwd, suffix }: { dir: string; cwd: string; suffix?: string }): RegistryItem[] {
   const types = fs.readdirSync(dir);
 
   return types.flatMap(typeDir => {
@@ -42,7 +38,7 @@ function getItems({ dir, cwd }: { dir: string; cwd: string }): RegistryItem[] {
         description = meta.description;
       }
       return {
-        name: pascalToKebab(item),
+        name: `${pascalToKebab(item)}${suffix ? `-${suffix}` : ''}`,
         title: item,
         description,
         type: 'registry:block',
